@@ -1,4 +1,4 @@
-name: Demo
+name: Hello World
 
 on:
   push:
@@ -12,4 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: echo "Hello GitHub Actions"
+      - run: echo "Pipeline Started"
+
+      - run: echo "Running Tests"
+
+      - run: echo "Pipeline Finished"
